@@ -1,0 +1,65 @@
+# Compiled object files, libraries, and executables
+*.o
+*.a
+*.lo
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Qt Creator specific files
+*.pro.user
+*.qbs.user
+*.pro.user.*
+*.qbs.user.*
+*.pro.user.*
+*.qbs.user.*
+*.creator.user.*
+*.creator.user.*
+*.creator.user.*
+*.creator.user.*
+
+# Qt Creator QML cache
+.qmlcache/
+
+# Qt Creator CMake files
+CMakeLists.txt.user
+
+# Qt build directories
+build-*/
+
+# Generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Other generated files
+*.moc
+*.qrc
+*.qmlc
+*.qmltypes
+*.qmlproject.user
+
+# Backup and temporary files
+*~
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.swo
+*.swn
+
+# Mac specific files
+.DS_Store
+
+.cache/
+
+build/
